@@ -1,0 +1,44 @@
+/* This sets the style for the main window */
+window {
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* This is the input field itself */
+input {
+  background-color: #4c566a;
+  color: #eceff4;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+/* This styles the prompt text ("Enter City, State...") */
+#prompt {
+color: #a3be8c;
+font-size: 1.1em;
+font-weight: bold;
+}
+
+/* THIS IS THE KEY PART TO REMOVE THE EMPTY SPACE */
+/* It targets the list container and forces it to be invisible */
+#outer {
+margin: 0;
+padding: 0;
+border: none;
+background: none;
+max-height: 0;
+display: none;
+}
+
+/* It also targets the scrollable list and removes all space */
+#scroll {
+margin: 0;
+padding: 0;
+border: none;
+background: none;
+max-height: 0;
+display: none;
+}
