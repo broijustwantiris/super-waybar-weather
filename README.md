@@ -65,8 +65,8 @@ The setup script will print a configuration snippet. You must **manually copy an
 ```json
     "custom/weather": {
         "format": "{}",
-        "on-click": "/home/reagan/super-waybar-weather/weather-input.sh",
-        "exec": "/home/reagan/super-waybar-weather/weather-display.sh",
+        "on-click": "/YOURPATH/super-waybar-weather/weather-input.sh",
+        "exec": "/YOURPATH/super-waybar-weather/weather-display.sh",
         "interval": 1800
     }
 ```
