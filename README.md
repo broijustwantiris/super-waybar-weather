@@ -1,3 +1,4 @@
+<img width="1920" height="1080" alt="sww" src="https://github.com/user-attachments/assets/7031c9ed-f941-4645-81de-1eebd7855fcf" />
 ### Super Waybar Weather
 
 A custom Waybar module that displays weather for a specified location. The module features an interactive `wofi` prompt to change the city or ZIP code, and the setting persists across reboots.
